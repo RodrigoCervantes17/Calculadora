@@ -37,7 +37,6 @@ class Program
                 continue;
             }
 
-            // Pedir números de forma segura
             Console.Write("Ingrese el primer número: ");
             float num1;
             while (!float.TryParse(Console.ReadLine(), out num1))
@@ -86,7 +85,7 @@ class Program
                     continue;
             }
 
-            // ✅ Guardar la operación en el historial
+ 
             GuardarEnHistorial(descripcion);
 
             Console.Write("\n¿Deseas realizar otra operación? (s/n): ");
